@@ -1,0 +1,13 @@
+{
+  "name": "@ralph-cli/PLATFORM",
+  "version": "0.1.0",
+  "description": "Platform-specific binary for ralph-cli (PLATFORM)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mane/ralph-cli"
+  },
+  "os": ["OS"],
+  "cpu": ["ARCH"],
+  "preferUnplugged": true
+}

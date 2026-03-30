@@ -1,0 +1,26 @@
+{
+  "name": "ralph-cli",
+  "version": "0.1.0",
+  "description": "Autonomous task completion loop powered by GitHub Copilot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mane/ralph-cli"
+  },
+  "bin": {
+    "ralph": "bin/ralph.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/postinstall.js"
+  },
+  "optionalDependencies": {
+    "@ralph-cli/darwin-arm64": "0.1.0",
+    "@ralph-cli/darwin-x64": "0.1.0",
+    "@ralph-cli/linux-arm64": "0.1.0",
+    "@ralph-cli/linux-x64": "0.1.0"
+  },
+  "keywords": ["copilot", "cli", "ai", "automation", "task-runner"],
+  "engines": {
+    "node": ">=18"
+  }
+}
