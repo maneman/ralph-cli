@@ -1,0 +1,22 @@
+# Binaries
+ralph
+*.exe
+dist/
+
+# Go
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ralph runtime
+eng/ralph-state.json
+eng/.ralph-lock
+eng/logs/
